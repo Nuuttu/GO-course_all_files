@@ -1,0 +1,14 @@
+Aiheena ajattelin korealaisten merkkien ääntämisen kirjoittaminen latinalaisilla kirjaimistolla
+
+ajatuksia vaiheista
+1. aluksi täytyy saada merkit toimimaan
+2. merkti vertaamaan toisiinsa
+3. sitten käyttäjän syötteet toimintaan
+4. muokataan käyttäjän syötteitä line scanneriksi
+5. sattumanvaraistetaan kysytyt merkit
+6. sessioon lisää vaiheita. Esimerkiksi aloitus ja lopetus
+7. lopetusta painaessa näkisi oikeiden vastauksien prosenttiosuuden kaikista vastauksista
+8. tallentaa tiedostoon päivämäärän ja tuloksen 
+9. komennolla tarkistaa korkeimman pistemäärän vaikka oikeiden vastauksien putken
+
+tuossa varmasti itselle tarpeeksi tekemistä

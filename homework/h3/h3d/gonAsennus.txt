@@ -1,0 +1,4 @@
+Sain GO:n toimimaan windowsilla asentamalla paketin https://golang.org/dl/
+ja asentamalla Visual Code:en GO -laajennuksen.
+
+Virustorjunnan kanssa ei tullut mitään ongelmia. Käytän ainoastaan windowsin omaa Windows Defender:iä

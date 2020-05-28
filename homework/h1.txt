@@ -1,0 +1,66 @@
+//http://terokarvinen.com/2020/go-programming-course-2020-w22/
+
+//go juttuja
+
+//part of http://terokarvinen.com/2020/go-programming-course-2020-w22/
+
+//https://gobyexample.com/
+
+//https://tour.golang.org/list
+
+
+
+Tehtävä a)
+
+package main
+
+import (
+"fmt"
+"flag"
+)
+
+func main() {
+  var name string
+  var number int
+  flag.StringVar(&name, "name", "", "anna nimi muodossa -name")
+  flag.IntVar(&number, "number", 0, "anna printtikerroin muodossa -number")
+
+  if name == "" {
+    fmt.Println("anna nimi muodossa -name")
+    } else {
+      for i := 0; i<number; i++ {
+        fmt.Println("Terve ", name)
+      }
+    }
+
+}
+
+
+
+tehtävä e) vaiheessa
+
+
+
+package main
+
+import (
+    "flag"
+    "fmt"
+)
+
+var aakkoset = []string{"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"}
+
+func main() {
+    var nimi string
+
+    flag.StringVar(&nimi, "nimi", "salaus", "anna nimi muodossa -nimi")
+    flag.Parse()
+
+    for i := 0; i < len(nimi); i++ {
+        fmt.Println(nimi)
+    }
+
+    for _, aakkonen := range aakkoset {
+        fmt.Println(aakkonen)
+    }
+}
