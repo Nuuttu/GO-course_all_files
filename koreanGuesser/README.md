@@ -24,3 +24,5 @@ sources
 // https://stackoverflow.com/questions/15018545/how-to-index-characters-in-a-golang-string
 // https://gobyexample.com/time
 // https://gobyexample.com/time-formatting-parsing
+// https://tour.golang.org/
+// https://golang.org/
